@@ -1,0 +1,32 @@
+/* NAVBAR STYLING */
+.navbar {
+  background-color: #4a4a8a;
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffd86b;
+}
+
+.navbar a.active {
+  border-bottom: 2px solid #ffd86b;
+  padding-bottom: 2px;
+}
+
+/* PAGE CONTENT */
+.content {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
