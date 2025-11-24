@@ -1,0 +1,19 @@
+<hr>
+<h2>{{message}}</h2>
+<!---code for data binding-->
+<h3>{{title}}</h3>
+<h3>{{description}}</h3>
+
+<img [src]="imageUrl" [width]="w" [height]="h">
+
+<p [style.color]="textColor">AntiFragile</p>
+<p [class.highlighted]="isHighlighted">You gotta lock in</p>
+
+<input [(ngModel)]="yourName" placeholder="Enter your name">
+<p>Hello {{yourName}} I'm Chaewon I love you!</p>
+
+
+<button (click)="increment()">+</button>
+<button (click)="decrement()">-</button>
+<p>How much you love me? {{ count }}</p>
+<hr>
